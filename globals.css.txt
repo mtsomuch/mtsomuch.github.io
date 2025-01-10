@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 60 100% 95%;
+    --foreground: 0 0% 0%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+    --primary: 60 100% 50%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 0 0% 0%;
+    --secondary-foreground: 60 100% 50%;
+    --muted: 60 20% 90%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 0 100% 50%;
+    --accent-foreground: 60 100% 50%;
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 60 100% 50%;
+    --border: 0 0% 0%;
+    --input: 0 0% 0%;
+    --ring: 60 100% 50%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@font-face {
+  font-family: 'PulpFiction';
+  src: url('/fonts/PulpFiction.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-pulp {
+  font-family: 'PulpFiction', serif;
+}
+
