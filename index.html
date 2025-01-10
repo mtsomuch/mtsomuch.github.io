@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personajes de Pulp Fiction</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #ffff66;
+            color: #000;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 60px; /* Para que el contenido no se oculte detrás del footer */
+        }
+        header {
+            background-color: #000;
+            color: #ffff66;
+            text-align: center;
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        main {
+            padding: 2rem;
+        }
+        .characters {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+        }
+        .character {
+            background-color: #fff;
+            border: 2px solid #000;
+            border-radius: 10px;
+            padding: 1rem;
+            width: 300px;
+            text-align: center;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+        .character:hover {
+            transform: translateY(-5px);
+        }
+        .character img {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+            border: 2px solid #000;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+        .character h2 {
+            margin: 0.5rem 0;
+        }
+        .character p {
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+        footer {
+            background-color: #000;
+            color: #ffff66;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Personajes de Pulp Fiction</h1>
+    </header>
+    <main>
+        <div class="characters">
+            <div class="character">
+                <img src="https://sjc.microlink.io/Bb_HWYMZEa2xglU0D9iU7hwFTmi2fzUjA3IOxpdqJp4j3PSNtOKhec64jLg8m1a6aS6GQepdQLWJSeV17hi_SA.jpeg" alt="Vincent Vega">
+                <h2>Vincent Vega</h2>
+                <p>Asesino a sueldo con estilo, adicto a la heroína y fanático de los autos clásicos. Su pasión por el baile es tan intensa como su lealtad a Marsellus Wallace.</p>
+            </div>
+            <div class="character">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-niUhDr5OgzYgrr0XK7XhZRtY6SBYlg.jpeg" alt="Jules Winnfield">
+                <h2>Jules Winnfield</h2>
+                <p>Compañero de Vincent, conocido por su intensidad y sus monólogos bíblicos. Experimenta una epifanía que cambia su vida durante la película.</p>
+            </div>
+            <div class="character">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-hqe70qB7l9H4HpQMwTiHPZwEyHTcyw.jpeg" alt="Mia Wallace">
+                <h2>Mia Wallace</h2>
+                <p>Esposa de Marsellus Wallace, ex-actriz y adicta a la cocaína. Su química con Vincent Vega lleva a una de las escenas de baile más icónicas del cine.</p>
+            </div>
+            <div class="character">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-V0GNXVcdpx0woOMqy4uqAAVnYwytOF.jpeg" alt="Butch Coolidge">
+                <h2>Butch Coolidge</h2>
+                <p>Boxeador que se niega a perder una pelea amañada, desatando la ira de Marsellus Wallace. Su lealtad a un reloj familiar lo mete en problemas.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pulp Fiction Fan Page</p>
+    </footer>
+</body>
+</html>
